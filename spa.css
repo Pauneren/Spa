@@ -1,0 +1,87 @@
+/**** DEFAULTS ****/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;  /* 1rem will equal this now */
+    line-height: 1.6;
+    font-family: sans-serif; /* add google fonts */
+}
+
+
+
+.home-h2{
+    margin: 5rem;
+    text-align: center;
+}
+
+/***Ol***/
+ol{
+    display: flex;
+}
+li {
+    text-decoration: none;
+    background: grey;
+
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+
+a.nav-link{
+    color: white;
+    margin-left: 5em;
+    
+
+}
+
+/**** PAGES ****/
+.page{
+    display: none;
+    width: 100%;
+    min-height: 100%; /* allow for content off the bottom of the page */
+    position: absolute;  /* or absolute if the user needs to scroll for more content */
+    padding: 1rem 2rem;
+}
+.active{
+    display: block; 
+}
+#home{
+    background-color: hsl(60, 92%, 65%);
+}
+#list{
+    background-color: hsl(180, 50%, 80%);
+}
+#detail{
+    background-color: hsl(240, 50%, 80%);
+}
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.big{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#map {
+    height: 100%;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dogs{
+      margin: 5rem;
+      height: 500px;
+      width: 500px;
+  }
